@@ -1,26 +1,55 @@
+import stellarBurger from '../../image/Stellar-Burger.png';
+import aimTraining from '../../image/Aim-Training.png';
+import Dog from '../../image/Dog.png';
+import mercedesBenz from '../../image/Mercedes-Benz.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBrands, fa-github } from "@fortawesome/free-solid-svg-icons";
+
 
 const MainPortfolio = () => {
    return (
       <section className="card-section" id="portfolio">
             <div className="card-content">
-               <div className="card-subtitle">WORK EXPERIENCE</div>
-               <div className="card-timeline">
-                  <div className="card-item" data-year="2014">
-                     <div className="card-item-title">Front-end Developer at <span>JotForm</span></div>
-                     <div className="card-item-desc">Disrupt stumptown retro everyday carry unicorn.</div>
-                  </div>
-                  <div className="card-item" data-year="2016">
-                     <div className="card-item-title">UI Developer at <span>GitHub</span></div>
-                     <div className="card-item-desc">Developed new conversion funnels and disrupt.</div>
-                  </div>
-                  <div className="card-item" data-year="2018">
-                     <div className="card-item-title">Illustrator at <span>Google</span></div>
-                     <div className="card-item-desc">Onboarding illustrations for App.</div>
-                  </div>
-                  <div className="card-item" data-year="2020">
-                     <div className="card-item-title">Full-Stack Developer at <span>CodePen</span></div>
-                     <div className="card-item-desc">Responsible for the encomposing brand expreience.</div>
-                  </div>
+               <div className="card-subtitle">My Recent Work</div>
+               <div className="conteiner portfolio__conteiner">
+                  <article className="portfolio__item">
+                     <div className="portfolio__item-image">
+                        <img src={stellarBurger} alt="" />
+                     </div>
+                     <h3></h3>
+                     <a href="https://github.com/NenevAleksey/Stellar-Burger" target="_blank">
+                        <FontAwesomeIcon icon={faBrands faGithub} />
+                        //изучи иконки
+                     </a>
+                     <a href="https://nenevaleksey.github.io/Stellar-Burger/" className="btn" target="_blank">Live Demo</a>
+                  </article>
+
+                  <article className="portfolio__item">
+                     <div className="portfolio__item-image">
+                        <img src={mercedesBenz} alt="" />
+                     </div>
+                     <h3></h3>
+                     <a href="https://github.com/NenevAleksey/Mercedes-Benz" target="_blank">GitHub</a>
+                     <a href="https://nenevaleksey.github.io/Mercedes-Benz/" className="btn" target="_blank">Live Demo</a>
+                  </article>
+
+                  <article className="portfolio__item">
+                     <div className="portfolio__item-image">
+                        <img src={Dog} alt="" />
+                     </div>
+                     <h3></h3>
+                     <a href="https://github.com/NenevAleksey/Photos-of-dogs" target="_blank">GitHub</a>
+                     <a href="https://NenevAleksey.github.io/Photos-of-dogs/" className="btn" target="_blank">Live Demo</a>
+                  </article>
+
+                  <article className="portfolio__item">
+                     <div className="portfolio__item-image">
+                        <img src={aimTraining} alt="" />
+                     </div>
+                     <h3></h3>
+                     <a href="https://github.com/NenevAleksey/Aim-Game" target="_blank">GitHub</a>
+                     <a href="https://NenevAleksey.github.io/Aim-Game/" className="btn" target="_blank">Live Demo</a>
+                  </article>
                </div>
             </div>
          </section>
