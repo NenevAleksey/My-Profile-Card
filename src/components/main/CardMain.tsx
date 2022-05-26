@@ -8,8 +8,10 @@ import MainPortfolio from "../portfolio/MainPortfolio";
 const CardMain: FC = () => {
    return (
       <div className="card-main">
-         <MainAbout/>
-         <CardButtons/>
+         <MainAbout />
+         <MainPortfolio />
+         <MainContact />
+         <CardButtons />
       </div>
    )
 }

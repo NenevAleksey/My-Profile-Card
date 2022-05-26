@@ -10,6 +10,7 @@ import { FC } from 'react';
 
 const MainPortfolio: FC = () => {
    return (
+      // сделать акордионом
       <section className="card-section" id="portfolio">
          <div className="card-content">
             <div className="card-subtitle">MY RECENT WORK</div>
@@ -20,26 +21,26 @@ const MainPortfolio: FC = () => {
                   </div>
                   <h3>Космическая бургерная</h3>
                   <div className="portfolio__item-cta">
-                     <a href="https://github.com/NenevAleksey/Stellar-Burger" target="_blank">
+                     <a href="https://github.com/NenevAleksey/Stellar-Burger" className="btn" target="_blank">
                         <FontAwesomeIcon icon={faGithubAlt} />
-                        GitHub
+                        <span>GitHub</span>
                      </a>
+                     <a href="https://nenevaleksey.github.io/Stellar-Burger/" className="btn" target="_blank">Live Demo</a>
                   </div>
-                  <a href="https://nenevaleksey.github.io/Stellar-Burger/" className="btn" target="_blank">Live Demo</a>
                </article>
 
                <article className="portfolio__item">
                   <div className="portfolio__item-image">
                      <img src={mercedesBenz} alt="" />
                   </div>
-                  <h3>Сайт автомобиля бренда Mercedes-Benz</h3>
+                  <h3>Сайт автопроизводителя Mercedes</h3>
                   <div className="portfolio__item-cta">
-                     <a href="https://github.com/NenevAleksey/Mercedes-Benz" target="_blank">
+                     <a href="https://github.com/NenevAleksey/Mercedes-Benz" className="btn" target="_blank">
                         <FontAwesomeIcon icon={faGithubAlt} />
-                        GitHub
+                        <span>GitHub</span>
                      </a>
+                     <a href="https://nenevaleksey.github.io/Mercedes-Benz/" className="btn" target="_blank">Live Demo</a>
                   </div>
-                  <a href="https://nenevaleksey.github.io/Mercedes-Benz/" className="btn" target="_blank">Live Demo</a>
                </article>
 
                <article className="portfolio__item">
@@ -48,12 +49,12 @@ const MainPortfolio: FC = () => {
                   </div>
                   <h3>Галерея фотографий собак</h3>
                   <div className="portfolio__item-cta">
-                     <a href="https://github.com/NenevAleksey/Photos-of-dogs" target="_blank">
+                     <a href="https://github.com/NenevAleksey/Photos-of-dogs" className="btn" target="_blank">
                         <FontAwesomeIcon icon={faGithubAlt} />
-                        GitHub
+                        <span>GitHub</span>
                      </a>
+                     <a href="https://NenevAleksey.github.io/Photos-of-dogs/" className="btn" target="_blank">Live Demo</a>
                   </div>
-                  <a href="https://NenevAleksey.github.io/Photos-of-dogs/" className="btn" target="_blank">Live Demo</a>
                </article>
 
                <article className="portfolio__item">
@@ -62,12 +63,12 @@ const MainPortfolio: FC = () => {
                   </div>
                   <h3>Игра для тернировки Аима</h3>
                   <div className="portfolio__item-cta">
-                     <a href="https://github.com/NenevAleksey/Aim-Game" target="_blank">
+                     <a href="https://github.com/NenevAleksey/Aim-Game" className="btn" target="_blank">
                         <FontAwesomeIcon icon={faGithubAlt} />
-                        GitHub
+                        <span>GitHub</span>
                      </a>
+                     <a href="https://NenevAleksey.github.io/Aim-Game/" className="btn" target="_blank">Live Demo</a>
                   </div>
-                  <a href="https://NenevAleksey.github.io/Aim-Game/" className="btn" target="_blank">Live Demo</a>
                </article>
             </div>
          </div>

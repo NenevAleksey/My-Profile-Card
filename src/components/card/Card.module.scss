@@ -1,5 +1,5 @@
 .card {
-  max-width: 340px;
+  max-width: 440px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -11,4 +11,11 @@
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.card[data-state="#about"] {
+  height: 450px;
+  .card-main {
+    padding-top: 0;
+  }
 }

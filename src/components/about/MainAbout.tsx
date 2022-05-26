@@ -1,3 +1,7 @@
+import { faGithub, faGithubAlt, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faG } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './MainAbout.scss'
 
 
 const MainAbout = () => {
@@ -9,7 +13,15 @@ const MainAbout = () => {
             </p>
          </div>
          <div className="card-social">
-            icon
+            <a href="https://github.com/NenevAleksey" target="_blank">
+               <FontAwesomeIcon className="svg-icon" icon={faGithub} />
+            </a>
+            <a href="" target="_blank">
+               <FontAwesomeIcon className="svg-icon" icon={faTelegram} />
+            </a>
+            <a href="" target="_blank">
+               <FontAwesomeIcon className="svg-icon" icon={faG} />
+            </a>
          </div>
       </section>
    )

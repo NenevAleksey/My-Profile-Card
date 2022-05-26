@@ -4,7 +4,7 @@ import { FC } from "react";
 
 const MainContact: FC = () => {
    return (
-      <div className="card-section" id="contact">
+      <section className="card-section" id="contact">
          <div className="card-content">
             <div className="card-subtitle">CONTACT</div>
             <div className="card-contact-wrapper">
@@ -21,11 +21,11 @@ const MainContact: FC = () => {
                   av.nenev@yandex.ru
                </div>
                <p>
-                  <a href="mailto:vlad@htmlbook.ru" className="btn">WORK TOGETHER</a>
+                  <a href="mailto:av.nenev@yandex.ru" className="btn">WORK TOGETHER</a>
                </p>
             </div>
          </div>
-      </div>
+      </section>
    )
 }
 
