@@ -5,8 +5,8 @@ import MainContact from "../contact/MainContact";
 import MainPortfolio from "../portfolio/MainPortfolio";
 import './CardMain.scss';
 
-
 const CardMain: FC = () => {
+   
    return (
       <main className="card-main">
          <MainAbout />

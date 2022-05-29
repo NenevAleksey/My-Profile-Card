@@ -1,5 +1,11 @@
 .card-contact-wrapper {
    margin-top: 20px;
+
+   p {
+      width: 100%;
+      display: flex;
+      flex: 1;
+   }
 }
 
 .card-contact {
@@ -17,7 +23,7 @@
    
    svg {
       flex-shrink: 0;
-      width: 30px;
+      width: 15px;
       min-height: 34px;
       margin-right: 12px;
       transition: 0.3s;
