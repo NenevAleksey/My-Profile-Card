@@ -1,10 +1,10 @@
-import { faGithub, faGithubAlt, faTelegram } from "@fortawesome/free-brands-svg-icons";
-import { faG } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faTelegram, faYandexInternational } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FC } from "react";
 import './MainAbout.scss'
 
 
-const MainAbout = () => {
+const MainAbout:FC = () => {
    return (
       <section className="card-section is-active" id="about">
          <div className="card-content">
@@ -19,8 +19,8 @@ const MainAbout = () => {
             <a href="" target="_blank">
                <FontAwesomeIcon className="svg-icon" icon={faTelegram} />
             </a>
-            <a href="" target="_blank">
-               <FontAwesomeIcon className="svg-icon" icon={faG} />
+            <a href="mailto:av.nenev@yandex.ru" target="_blank">
+               <FontAwesomeIcon className="svg-icon" icon={faYandexInternational} />
             </a>
          </div>
       </section>

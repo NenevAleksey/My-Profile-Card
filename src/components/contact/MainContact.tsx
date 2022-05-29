@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FC } from "react";
+import './MainContact.scss';
+
 
 const MainContact: FC = () => {
    return (

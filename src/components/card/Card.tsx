@@ -1,11 +1,11 @@
 import CardHeader from "../header/CardHeader";
 import CardMain from "../main/CardMain";
-import styleCard from './Card.module.scss'
+import './Card.scss'
 
 
 const Card = () => {
    return (
-      <div className={styleCard.card}>
+      <div className="card" data-state="#about">
          <CardHeader/>
          <CardMain />
       </div>
